@@ -12,10 +12,10 @@ I’m not chasing certifications or pretending to be an expert, I focus on authe
 
 - Maintaining a personal blog using Jekyll for technical writing and portfolio showcase  
 - Experimenting with Linux environments and scripting
+- Deepening understanding of hardware and computer systems 
 
 ## Future Goals
 
-- Deepening understanding of hardware and computer systems  
 - Exploring cybersecurity fundamentals and ethical hacking
 
 I aim to build a body of work that reflects genuine curiosity, technical skill, and a mindset of continuous improvement.
