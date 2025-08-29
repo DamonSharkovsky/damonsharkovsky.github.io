@@ -15,7 +15,7 @@ From my understanding, the terminal provides access to the system without a GUI.
 ---
 
 
-## PWD (Print Working Directory)
+## pwd (Print Working Directory)
 
 
 `pwd` shows the current directory. I’ve used it to copy paths and paste them into my code to access local files. The root directory is `/`, and my home directory is represented by `~/`. It’s a simple command, but seeing the full path of where I am helps me understand the structure of the filesystem.
@@ -24,7 +24,7 @@ From my understanding, the terminal provides access to the system without a GUI.
 ---
 
 
-## CD (Change Directory)
+## cd (Change Directory)
 
 
 `cd` changes directories. I use it constantly to move around the terminal, often pasting paths I get from `pwd`. Some shortcuts I’ve found helpful include:
@@ -39,7 +39,7 @@ Learning these shortcuts has made moving around much faster, and it’s interest
 ---
 
 
-## LS (List Directories)
+## ls (List Directories)
 
 
 `ls` lists the contents of a directory. I use it to see what’s inside folders since there’s no GUI. Some useful flags include:
