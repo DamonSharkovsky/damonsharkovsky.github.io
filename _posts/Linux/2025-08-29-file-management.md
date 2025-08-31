@@ -8,6 +8,8 @@ tags: [Linux, Commands]
 
 Today I explored file management commands in Linux from learning how to create, delete, and manage files directly from the shell. This approach saves time and feels much more efficient than relying solely on graphical tools.
 
+---
+
 ## Wildcards
 
 Wildcards are special characters that simplify working with multiple files:
@@ -18,6 +20,8 @@ Wildcards are special characters that simplify working with multiple files:
 
 They become especially useful when combined with commands such as `cp`, `mv`, and `rm`.
 
+---
+
 ## cp (Copy)
 
 The `cp` command is more versatile than I initially thought. Beyond simply duplicating a file, it includes options for safer and more controlled copying:
@@ -27,6 +31,8 @@ The `cp` command is more versatile than I initially thought. Beyond simply dupli
 - `-r`: Copy directories recursively.  
 
 Using wildcards with `cp` makes it easy to copy groups of files at once.
+
+---
 
 ## mv (Move / Rename)
 
@@ -41,6 +47,8 @@ Useful options:
 - `-b`: Create a backup before overwriting.  
 - `-r`: Move directories recursively.  
 
+---
+
 ## mkdir (Make Directory)
 
 `mkdir` creates directories. Multiple directories can be made in one command:  
@@ -52,6 +60,8 @@ The `-p` flag allows nested directory creation:
 ```bash
 mkdir -p books/hemingway
 ```  
+
+---
 
 ## rm (Remove)
 
@@ -68,6 +78,7 @@ The infamous command:
 
 ![rm](assets/img/linux/4e22zVJ5Kz9J6yxy3oRksfH8uOANfXaScoSlMY75YrM.jpg)
 
+---
 
 ```bash
 sudo rm -rf ./*
@@ -79,6 +90,8 @@ sudo rm -rf ./*
 
 It is fast, powerful, and dangerous.
 
+---
+
 ## find
 
 The `find` command locates files and directories:
@@ -87,6 +100,8 @@ The `find` command locates files and directories:
 - `-type`: Search by type (e.g., `f` for files, `d` for directories).  
 
 It is a flexible tool that pairs well with other commands.
+
+---
 
 ## wc (Word Count)
 
@@ -100,6 +115,6 @@ find . -name "*.txt" | wc -l
 ```
 This counts the number of `.txt` files in the current directory and its subdirectories.
 
-## Final Thoughts
+---
 
 Learning these commands has completely changed how I work in Linux. From renaming and copying files to managing directories, everything feels faster and more precise. The combination of wildcards, flags, and pipelines makes the command line a powerful environment one I am starting to rely on more every day.
