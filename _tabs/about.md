@@ -12,7 +12,6 @@ I’m not chasing certifications or pretending to be an expert, I focus on authe
 
 - Maintaining a personal blog using Jekyll for technical writing and portfolio showcase  
 - Experimenting with Linux environments and scripting
-- Web Development (HTML, CSS, JS)
 
 ## Future Goals
 
